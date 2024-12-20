@@ -1,0 +1,174 @@
+.container {
+    width: 95%;
+    max-width: 95%;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #8f20b1
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: #9a36a3
+}
+
+.name {
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial;
+    letter-spacing: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 100px;
+    color: #D7D7D7;
+    background-color: #832564;
+    border-radius: 10px;
+}
+
+.main {
+    background-image: url(fon1.png);
+    width: 55.5%;
+    max-width: 55.5%;
+    height: 750px;
+    max-height: 750px;
+    padding: 20%;
+    margin: 0 auto;
+}
+
+.info {
+    width: 95%;
+    max-width: 95%;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #ac1bd8
+}
+
+.info:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.toxt {
+    text-align: left;
+    font-family: 'Times New Roman';
+    letter-spacing: 5px;
+}
+
+.market {
+    text-align: right;
+    font-family: 'Times New Roman';
+    letter-spacing: 5px;
+}
+
+p {
+    display: inline-block;
+}
+
+.main {
+    width: 95%;
+    max-width: 95%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sptx {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial;
+    letter-spacing: 15px;
+}
+
+#header1,
+#header2,
+#header3,
+#col1,
+#col2,
+#col3 {
+    width: 250px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 2px;
+    float: left;
+    border: 1px solid black;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    color: white;
+}
+
+#col1,
+#col2,
+#col3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+    font-weight: normal;
+    color: black;
+}
+
+#header1 {
+    background: #d6313f;
+}
+
+#header2 {
+    background: #d6313f;
+}
+
+#header3 {
+    background: #d6313f;
+}
+
+#col1 {
+    background: #e3f119;
+}
+
+#col2 {
+    background: #e3f119;
+}
+
+#col3 {
+    background: #e3f119;
+}
+
+.ctr {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hamstor {
+    height: 250px;
+    width: 250px;
+}
+
+.shlepa {
+    height: 250px;
+    width: 250px;
+}
